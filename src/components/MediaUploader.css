@@ -1,0 +1,17 @@
+/* src/styles/MediaUploader.css */
+.media-uploader {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .media-uploader input {
+    flex: 1;
+  }
+  
+  .media-preview img,
+  .media-preview video {
+    max-width: 100%;
+    margin: 10px 0;
+  }
+  

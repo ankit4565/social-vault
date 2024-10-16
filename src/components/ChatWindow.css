@@ -1,0 +1,34 @@
+/* src/styles/ChatWindow.css */
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.message {
+  background-color: #f1f1f1;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 70%;
+  transition: background-color 0.3s;
+}
+
+.message:hover {
+  background-color: #e2e2e2;
+}
+
+.message.self {
+  background-color: #0077ff;
+  color: white;
+  align-self: flex-end;
+}
+
+.media-preview {
+  margin-top: 10px;
+}
